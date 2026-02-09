@@ -34,4 +34,10 @@ var (
 		"ERR_OPENAPI_1005",
 		"failed to create router for open api validation",
 		false)
+
+	// ErrResponseValidationFailed is returned when the response does not match the OpenAPI spec (logged; response already sent).
+	ErrResponseValidationFailed = ae.GetCustomErr(
+		"ERR_OPENAPI_1006",
+		"openapi response validation failed",
+		false)
 )
