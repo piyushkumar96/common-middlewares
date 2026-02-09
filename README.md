@@ -1,6 +1,6 @@
 # common-middlewares
 
-Reusable Gin HTTP middlewares: **trace**, **cors**, **authentication**, **context**, and **openapi** (request validation). Uses [piyushkumar96/app-error](https://github.com/piyushkumar96/app-error), [piyushkumar96/app-monitoring](https://github.com/piyushkumar96/app-monitoring) (optional), and [piyushkumar96/generic-logger](https://github.com/piyushkumar96/generic-logger).
+Reusable Gin HTTP middlewares: **trace**, **cors**, **authentication**, **context**, and **openapi** (request/response validation). Uses [piyushkumar96/app-error](https://github.com/piyushkumar96/app-error), [piyushkumar96/app-monitoring](https://github.com/piyushkumar96/app-monitoring) (optional), and [piyushkumar96/generic-logger](https://github.com/piyushkumar96/generic-logger).
 
 ## Layout
 
