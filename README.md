@@ -34,7 +34,7 @@ go get github.com/piyushkumar96/common-middlewares/...
 | **cors** | `github.com/piyushkumar96/common-middlewares/cors` | CORS middleware with configurable headers and origin regex. |
 | **authentication** | `github.com/piyushkumar96/common-middlewares/authentication` | Auth via static token in `Authorization` header. |
 | **context** | `github.com/piyushkumar96/common-middlewares/context` | Request ID, `InitRequestContext`, `GetRequestContext`, `RespondJSON`, `MessageFailure`, context meta. |
-| **openapi** | `github.com/piyushkumar96/common-middlewares/openapi` | OpenAPI validator middleware; build router from spec with `NewOpenAPIValidatorRouter`. |
+| **openapi** | `github.com/piyushkumar96/common-middlewares/openapi` | OpenAPI request and optional response validation; `OpenAPIValidatorRequest` (request only), `OpenAPIValidatorRequestAndResponse` (request + response; response failures logged). |
 
 ## Examples
 

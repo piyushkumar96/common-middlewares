@@ -41,8 +41,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("OpenAPI router: %v", err)
 	}
-	// OpenAPIValidator expects routers.Router interface; router is *routers.Router.
-	runServer(openapi.OpenAPIValidator(*router))
+	// Use OpenAPIValidatorRequest for request-only validation, or OpenAPIValidatorRequestAndResponse for request + response validation.
+	runServer(openapi.OpenAPIValidatorRequestAndResponse(*router))
 }
 
 func runServer(validator gin.HandlerFunc) {
